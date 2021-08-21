@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { NavmenuStyle, MobileMenu } from "./Navbar.style";
 
 const Navbar = () => {
-    const [mMenuActive, setMMenuActive] = useState(true)
+    const [mMenuActive, setMMenuActive] = useState(false)
     return (
         <>
             <MobileMenu onClick={() => setMMenuActive(!mMenuActive)}>
